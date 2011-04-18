@@ -35,9 +35,11 @@ public class StringMapLoader implements GameMapFactory {
 	}
 
 	private List<Fleet> readFleets(List<String> lines) {
+		List<Fleet> fleets = new ArrayList<Fleet>();
 		for (String line : lines) {
+			
 		}
-		return null;
+		return fleets;
 	}
 
 	private List<Planet> readPlanets(List<String> lines) {
